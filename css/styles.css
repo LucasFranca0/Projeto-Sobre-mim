@@ -1,0 +1,40 @@
+
+body {
+    margin: 0;
+}
+
+
+/* navbar */
+
+#navbar {
+    background-color: #221c1c;
+    padding: 0 15px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    z-index: 10000px; 
+}
+
+
+/* banner */
+#main-banner {
+    height: 81vh;
+    background-image: url('../img/matrix.jpg');
+    background-size: cover;
+    padding-top: 19vh;
+}
+
+#banner-info {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+#banner-info img {
+    height: 130px;
+    border-radius: 20%;
+    background-color:#000000;
+}
+

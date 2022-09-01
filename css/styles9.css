@@ -1,0 +1,169 @@
+/* geral */
+body, p, h1, h2, textarea {
+    margin: 0;
+    font-family: Roboto;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+/* navbar */
+
+#navbar {
+    background-color: #221b1b;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10000px;
+  
+}
+
+#navbar h2, #navbar ul, #navbar-list li, #navbar nav {
+    display: inline-block;
+}
+
+#navbar h2 {
+    margin: 0;
+    line-height: 60px;
+    margin-left: 55px;
+}
+
+#navbar nav {
+    
+    text-align: center;
+}
+
+#navbar ul
+{
+    margin-top: 22px;
+    font-size: 19px;
+}
+
+
+#navbar li {
+    margin: 0  10px;
+}
+
+#navbar-list li a {
+    text-decoration: none;
+    color:#FFF; 
+    font-weight: bold;
+}
+
+#navbar-list li a:hover {
+    border-bottom: 1px solid#FFF;
+}
+
+/* banner */
+#main-banner {
+    height: 50vh;
+    background-image: url('https://naoca.blog.br/wp-content/uploads/2022/02/vatapa-800x420.jpg');
+    background-size: cover;
+    padding-top: 15vh;
+}
+
+/* about */
+
+
+#about-section h2 {
+    margin-bottom: 20px;
+}
+
+#about-section p {
+    max-width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* skils */
+
+#skills-section {
+    margin-top: -100px;
+    background-color: #FFF;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+#skills-section .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.skills-container .subtitle {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.skills-container {
+    text-align: center;
+    padding: 60px 25px;
+}
+
+.skills-container img {
+    height: 60px;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 4px solid #000000;
+    border-bottom: 4px solid #000000;
+
+ }
+
+.skills-container ul, ol {
+    text-align: left;
+}
+
+.subtitle {
+    text-align: left;
+    margin-left: 20px;
+}
+
+ .skills-container p {
+    line-height: 25px;
+ }
+
+ .info-adic p {
+    text-align: left;
+    margin-left: 20px;
+ }
+
+/* footer */
+
+footer {
+   
+    background-color: #000000;
+    color: #FFF;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+footer img {
+    height: 50px;
+    margin: 30px 0;
+}
+
+footer p {  
+    margin-top: 25px;
+}
+
+footer .detail {
+    font-weight: bold;
+}
+
+footer ul li {
+    list-style: none;
+    align-items: center;
+    display: inline-block;
+    padding: 10px;
+}

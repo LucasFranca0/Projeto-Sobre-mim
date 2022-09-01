@@ -1,0 +1,263 @@
+/* geral */
+body, p, h1, h2, textarea {
+    margin: 0;
+    font-family: Roboto;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+/* navbar */
+
+#navbar {
+    background-color: #221b1b;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10000px;
+}
+
+#navbar h2, #navbar ul, #navbar-list li, #navbar nav {
+    display: inline-block;
+}
+
+#navbar h2 {
+    margin: 0;
+    line-height: 60px;
+    margin-left: 30px;
+}
+
+#navbar nav {
+    
+    text-align: center;
+}
+
+#navbar ul
+{   
+    font-size: 19px;
+    margin-top: 22px;
+}
+
+
+#navbar li {
+    margin: 0  10px;
+}
+
+#navbar-list li a {
+    text-decoration: none;
+    color:#FFF; 
+    font-weight: bold;
+}
+
+#navbar-list li a:hover {
+    border-bottom: 1px solid#FFF;
+}
+
+/* banner */
+#main-banner {
+    height: 70vh;
+    background-image: url('https://envato-shoebox-0.imgix.net/0d0f/6ea2-b36f-4ea0-9d43-96c57e371da3/20180613seasonings3.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=1600&s=faa6eeea9e7a1b3b43f37f8a87256833');
+    background-size: cover;
+    padding-top: 20vh;
+}
+
+#banner-info {
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: #FFF;
+    padding: 50px;
+}
+
+#banner-info img {
+    height: 120px;
+    border-radius: 50%;
+    background-color:#000000;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* about */
+
+#about-section {
+    text-align: center;
+    background-color: #0e0b0b;
+    color: #FFF;
+    padding-top: 50px;
+    height: 200px;
+}
+
+#about-section h2 {
+    margin-bottom: 20px;
+}
+
+#about-section p {
+    max-width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 80vh;
+    height: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 3px 0px black;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.container img {
+    border-radius: 4px;
+}
+    
+
+.personalidade {
+    height: 400px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto
+
+}
+
+.personalidade p {
+    padding-top: 20px;
+}
+
+.personalidade h3 {
+    font-size: 25px;
+}
+
+
+
+/* comida */
+
+#comida-section {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#comida-section h2 {
+    color:#020000;
+    margin-bottom: 20px;
+}
+
+#comida-section .subtitle{
+    margin-bottom: 30px;
+    font-weight: bold;
+    color:#000000;
+    font-size: 23px;
+}
+
+.list-comida h3 {
+    height: 30px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 150px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-right: 60px;
+}
+
+#comida-section li {
+    list-style: none;
+}
+
+.list-comida1 h3{
+    margin-right: 30px;
+    padding: 0 130px;
+    display: inline-block;
+    text-align: center;  
+    height: 100px;
+}
+
+#comida-section a:hover {
+    font-weight: bold;
+    text-decoration:underline;
+}
+
+.comida-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.comida-box {
+    flex: 1 1 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 300px;
+    background-size: cover;
+    box-shadow: 4px 4px 10px #000000;  
+}
+
+.proj1 {
+    background-image: url('https://www.saborbrasil.it/wp-content/uploads/2021/06/Pamonha.jpg')
+}
+
+.proj2 {
+    background-image: url('https://tpaempreendimentos.com.br/blog/wp-content/uploads/2019/02/shutterstock-84904912-1024x683.jpg')
+}
+
+.proj3 {
+    background-image: url('https://www.ufrgs.br/laranjanacolher/wp-content/uploads/2021/08/1-1024x1024.png')
+} 
+
+.proj4 {
+    background-image: url('https://img.itdg.com.br/tdg/images/recipes/000/086/691/332009/332009_original.jpg?w=1200');
+}
+
+.proj5 {
+    background-image: url('../img/lagosta.jpg');
+}
+
+.proj6 {
+    background-image: url('https://naoca.blog.br/wp-content/uploads/2022/02/vatapa-800x420.jpg');
+}
+
+
+
+/* footer */
+
+footer {
+   
+    background-color: #000000;
+    color: #FFF;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+footer img {
+    height: 50px;
+    margin: 30px 0;
+}
+
+footer p {  
+    margin-top: 25px;
+}
+
+footer .detail {
+    font-weight: bold;
+}
+
+footer ul li {
+    list-style: none;
+    align-items: center;
+    display: inline-block;
+    padding: 10px;
+}

@@ -1,0 +1,237 @@
+/* geral */
+body, p, h1, h2, textarea {
+    margin: 0;
+    font-family: Roboto;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+/* navbar */
+
+#navbar {
+    background-color: #221b1b;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10000px;
+}
+
+#navbar h2, #navbar ul, #navbar-list li, #navbar nav {
+    display: inline-block;
+}
+
+#navbar h2 {
+    margin: 0;
+    line-height: 60px;
+    margin-left: 55px;
+}
+
+#navbar nav {
+    
+    text-align: center;
+}
+
+#navbar ul
+{
+    margin-top: 22px;
+    font-size: 19px;
+}
+
+
+#navbar li {
+    margin: 0  10px;
+}
+
+#navbar-list li a {
+    text-decoration: none;
+    color:#FFF; 
+    font-weight: bold;
+}
+
+#navbar-list li a:hover {
+    border-bottom: 1px solid#FFF;
+}
+
+/* banner */
+#main-banner {
+    height: 70vh;
+    background-image: url('https://vidadeturista.com/wp-content/uploads/2020/11/viagem-para-a-cappadocia.jpg');
+    background-size: cover;
+    padding-top: 20vh;
+}
+
+#banner-info {
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: #FFF;
+    padding: 50px;
+}
+
+#banner-info img {
+    height: 120px;
+    border-radius: 50%;
+    background-color:#000000;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* about */
+
+#about-section {
+    text-align: center;
+    background-color: #0e0b0b;
+    color: #FFF;
+    padding-top: 50px;
+    height: 350px;
+}
+
+#about-section h2 {
+    margin-bottom: 20px;
+}
+
+#about-section p {
+    max-width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* skils */
+
+#skills-section {
+    margin-top: -200px;
+    background-color: #FFF;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 3px #000000;
+    border-radius: 10px;
+}
+
+#skills-section .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.skills-container {
+    flex: 1 1 1;
+    text-align: center;
+    padding: 50px 25px;
+}
+
+
+ .skills-container .subtitle {
+    font-weight: bold;
+    color: #110001;
+    margin-top: 50px;
+    margin-bottom: 15px;
+ }
+
+ .skills-container p {
+    text-align: left;
+ }
+
+/* jobs */
+
+#jobs-section {
+    text-align: center;
+    padding-top: 50px;
+    height: 1600px;
+    margin-top: 50px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px #000000;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#jobs-section h2 {
+    color:#020000;
+    margin-bottom: 70px;
+}
+
+#jobs-section1 h2 {
+    color:#020000;
+    margin-bottom: 70px;
+}
+
+#jobs-section p {
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.job-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 170px;
+    text-shadow: 0 0 black;
+}
+
+.job-box {
+    flex: 1 1 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 300px;
+    background-size: cover;
+    box-shadow: 4px 4px 10px #0e0b0b;  
+}
+
+.job-container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    text-shadow: 0 0 black;
+}
+
+
+#jobs-section1 {
+    text-align: center;
+    padding-top: 50px;
+}
+/* footer */
+
+footer {
+   
+    background-color: #000000;
+    color: #FFF;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+footer img {
+    height: 50px;
+    margin: 30px 0;
+}
+
+footer p {  
+    margin-top: 25px;
+}
+
+footer .detail {
+    font-weight: bold;
+}
+
+footer ul li {
+    list-style: none;
+    align-items: center;
+    display: inline-block;
+    padding: 10px;
+}
